@@ -54,7 +54,7 @@ public class CreateNewContactTest extends BaseClass {
 				// step 5 ################ Verify for contact ##############
 				
 				 ContactInfoPage cip = new ContactInfoPage(driver);
-				 Thread.sleep(3000);
+				 Thread.sleep(6000);
 				 String contactHeader = cip.captureContactHeader();
 				 Thread.sleep(3000);
 				 System.out.println(contactHeader);
